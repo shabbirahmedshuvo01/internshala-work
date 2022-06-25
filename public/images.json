@@ -1,0 +1,29 @@
+[
+    {
+        "id": 1,
+        "name": "Paramoy Life er Paracetamol",
+        "supply": "Book House",
+        "price": "270",
+        "quantity": "300",
+        "description": "Programming is difficult; A student of science or math hides his face thinking that.A student of science or math hides his face thinking that.",
+        "img": "https://ultranextgen.com/wp-content/uploads/2020/12/20201230_090729-01.jpg"
+    },
+    {
+        "id": 2,
+        "name": "Programming er Bolod to Boss",
+        "supply": "Book House",
+        "price": "170",
+        "quantity": "100",
+        "description": "By showing the easiest and shortest road, by teaching the minimum things that need to be learned, by making a beginner level programmer",
+        "img": "https://www.jhankarmahbub.com/images/bolod.png"
+    },
+    {
+        "id": 3,
+        "name": "Habluder Jonno Programming",
+        "supply": "Book Deallers",
+        "price": "250",
+        "quantity": "150",
+        "description": "Those who can't start the programming flame because of fear. Programming is difficult; A student of science or math hides his face thinking that.",
+        "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS-NIZaCYlabc2lyHJKztKok7eTWF-eoQzN_iHgXyMAVOLuim49oWBTvqFP_yPbJJJofMQ&usqp=CAU"
+    }
+]
