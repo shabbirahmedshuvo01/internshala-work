@@ -4,7 +4,7 @@ import Home from './components/Home';
 
 function App() {
   return (
-    <div className="ApP">
+    <div>
       <Home></Home>
       <Banner></Banner>
     </div>
