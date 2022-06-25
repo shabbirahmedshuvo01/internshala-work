@@ -3,13 +3,13 @@ import Image from './Image';
 
 const Banner = () => {
 
-    // const [images, setImages] = useState([]);
+    const [images, setImages] = useState([]);
 
-    // useEffect(() => {
-    //     fetch('images.json')
-    //         .then(res => res.json())
-    //         .then(data => setImages(data))
-    // }, []);
+    useEffect(() => {
+        fetch('images.json')
+            .then(res => res.json())
+            .then(data => setImages(data))
+    }, []);
 
     return (
         <div className='mx-20 mt-10 flex'>
@@ -66,10 +66,9 @@ const Banner = () => {
             </div>
 
             <div className='pl-10'>
-                {/* {
-                    images.map(image => <Image key={image.id} image={image}></Image>)
-                } */}
-                <Image></Image>
+                {
+                    images.map(image => <Image key={image._id} image={image}></Image>)
+                }
             </div>
 
         </div >
